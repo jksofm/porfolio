@@ -7,7 +7,7 @@ function SocialLink() {
       <a href="https://www.facebook.com/Sofm.Wam">
         <FaFacebookSquare />
       </a>
-      <a href="https://www.facebook.com/Sofm.Wam">
+      <a href="https://huydeveloper98.netlify.app/">
         <FaHome />
       </a>
       <a href="https://www.instagram.com/chomchomishere_/">
