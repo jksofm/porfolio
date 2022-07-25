@@ -25,7 +25,7 @@ function Home() {
 }
 
 const Wrapper = styled.div`
-  background-color: var(--clr-primary-10);
+  background-color: var(--clr-primary-9);
 
   .home {
     display: grid;

@@ -30,12 +30,16 @@ function SingleProject({data}) {
  <div className="btn-container">
        
 
- <button className="btn btn-project">
-   <a target="_blank" rel="noopener noreferrer" href={data.urlProject}>Live</a>
+   <a target="_blank" rel="noopener noreferrer" href={data.urlProject}>
+
+ <button className="btn btn-project">Live
  </button>
- <button className="btn btn-project">
-   <a target="_blank" rel="noopener noreferrer" href={data.sourceLink}>Demo</a>
+   </a>
+   <a target="_blank" rel="noopener noreferrer" href={data.sourceLink}>
+   
+ <button className="btn btn-project">Source
  </button>
+   </a>
  
  </div>
  
@@ -63,12 +67,17 @@ function SingleProject({data}) {
         <div className="btn-container">
               
        
-        <button className="btn btn-project">
-          <a target="_blank" rel="noopener noreferrer" href={data.urlProject}>Live</a>
+        
+          <a target="_blank" rel="noopener noreferrer" href={data.urlProject}><button className="btn btn-project">
+             Live
         </button>
-        <button className="btn btn-project">
-          <a target="_blank" rel="noopener noreferrer" href={data.sourceLink}>Demo</a>
+          </a>
+          <a target="_blank" rel="noopener noreferrer" href={data.sourceLink}>
+
+
+        <button className="btn btn-project">Source
         </button>
+          </a>
         
         </div>
         

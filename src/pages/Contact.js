@@ -58,7 +58,7 @@ function Contact() {
   )
 }
 const Wrapper = styled.section`
-background: var(--clr-grey-10);
+background: var(--clr-grey-9);
 
 .content{
   display:grid;

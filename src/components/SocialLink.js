@@ -4,13 +4,13 @@ import { FaFacebookSquare, FaInstagramSquare, FaHome } from "react-icons/fa";
 function SocialLink() {
   return (
     <Wrapper>
-      <a href="https://www.facebook.com/Sofm.Wam">
+      <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/Sofm.Wam">
         <FaFacebookSquare />
       </a>
-      <a href="https://huydeveloper98.netlify.app/">
+      <a target="_blank" rel="noopener noreferrer" href="https://huydeveloper98.netlify.app/">
         <FaHome />
       </a>
-      <a href="https://www.instagram.com/chomchomishere_/">
+      <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/chomchomishere_/">
         <FaInstagramSquare />
       </a>
     </Wrapper>

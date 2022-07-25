@@ -33,7 +33,7 @@ function About() {
   );
 }
 const Wrapper = styled.section`
- background-color: var(--clr-primary-10);
+ background-color: var(--clr-primary-9);
   .about {
     display: flex;
     align-items: center;

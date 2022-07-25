@@ -81,7 +81,7 @@ function Skills() {
   );
 }
 const Wrapper = styled.section`
-background-color: var(--clr-grey-10);
+background-color: var(--clr-grey-9);
 
 
 .content{

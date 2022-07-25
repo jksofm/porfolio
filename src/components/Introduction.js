@@ -6,7 +6,7 @@ function Introduction() {
   return (
     <Wrapper>
       <h1>I'm a Web Develop</h1>
-      <p>I love building beautiful web experience</p>
+      <p>I love building beautiful Website</p>
       <div className="btn-container">
         <button className="btn btn-hero">
           <Link to="/about">About me</Link>
