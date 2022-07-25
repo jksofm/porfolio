@@ -4,6 +4,8 @@ import { Title, SingleProject } from "../components";
 import project1 from "../assets/project1.gif";
 import project2 from "../assets/project2.gif";
 import project3 from "../assets/project3.gif";
+import project4 from "../assets/project4.gif";
+
 
 function Projects() {
   return (
@@ -11,8 +13,6 @@ function Projects() {
       <div className="section section-center">
         <Title text="Projects" />
         <div className="content">
-          
-
           <SingleProject
             data={{
               imgProject: project1,
@@ -30,8 +30,6 @@ function Projects() {
               imageFirst: true,
             }}
           />
-          
-          
 
           <SingleProject
             data={{
@@ -44,8 +42,18 @@ function Projects() {
               imageFirst: false,
             }}
           />
-          
 
+          <SingleProject
+            data={{
+              imgProject: project4,
+              urlProject: "https://huydeveloper98.netlify.app/",
+              name: "Porfolio Website",
+              info: "An website is built using Context API,React, Styled Components that help you to know more about me",
+              projectList: ["REACT", "CONTEXT APIT", "STYLED COMPONENT"],
+              sourceLink: "https://github.com/jksofm/porfolio",
+              imageFirst: true,
+            }}
+          />
 
           <SingleProject
             data={{
@@ -58,20 +66,18 @@ function Projects() {
               imageFirst: true,
             }}
           />
-
-
         </div>
       </div>
     </Wrapper>
   );
 }
 const Wrapper = styled.section`
- display: flex;
- flex-direction: column;
- height: auto;
- .content{
-  height: 100%;
- }
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  .content {
+    height: 100%;
+  }
 `;
 
 export default Projects;
